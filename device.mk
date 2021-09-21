@@ -230,6 +230,7 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 PRODUCT_PACKAGES += \
     WifiOverlay \
+    TetheringConfigOverlay \
     CarrierConfigOverlay
 
 # Permissions
