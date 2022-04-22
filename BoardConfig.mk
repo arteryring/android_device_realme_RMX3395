@@ -95,5 +95,17 @@ BOARD_VNDK_VERSION := current
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 DEVICE_MATRIX_FILE += $(DEVICE_PATH)/compatibility_matrix.xml
 
+<<<<<<< HEAD
 # Platform
 TARGET_BOARD_PLATFORM := mt6877
+=======
+# Properties
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+
+# VNDK
+BOARD_VNDK_VERSION := current
+
+# Inherit the proprietary files
+include vendor/realme/spaced/BoardConfigVendor.mk
+>>>>>>> bc5f7fb (spaced: Import required system|vendor properties)
