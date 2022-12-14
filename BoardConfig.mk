@@ -6,6 +6,9 @@
 
 DEVICE_PATH := device/realme/RMX3395
 
+# Build
+BUILD_BROKEN_DUP_RULES := true
+
 # APEX
 DEXPREOPT_GENERATE_APEX_IMAGE := true
 
