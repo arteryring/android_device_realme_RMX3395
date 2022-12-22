@@ -336,6 +336,10 @@ PRODUCT_PACKAGES += \
     init.sensor_2_0.rc \
     ueventd.rc \
     ueventd.wifi.rc
+    init.sensor_1_0.rc \
+    init.target.rc \
+    ueventd.mtk.rc \
+    ueventd.oplus.rc
 
 # Fastboot
 PRODUCT_PACKAGES += \
