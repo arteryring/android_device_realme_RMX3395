@@ -129,6 +129,10 @@ PRODUCT_PACKAGES += \
     ueventd.rc \
     ueventd.wifi.rc
 
+# Soundtrigger
+PRODUCT_PACKAGES += \
+    android.hardware.soundtrigger@2.3-impl
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
