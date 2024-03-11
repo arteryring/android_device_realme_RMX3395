@@ -6,6 +6,22 @@
 
 DEVICE_PATH := device/realme/RMX3395
 
+# A/B
+AB_OTA_UPDATER := true
+AB_OTA_PARTITIONS += \
+    system \
+    system \
+    system_ext \
+    system_ext \
+    product \
+    product \
+    vendor \
+    vendor \
+    odm \
+    odm
+BOARD_USES_RECOVERY_AS_BOOT := true
+
+
 # Inherit the proprietary files
 include vendor/realme/RMX3395/BoardConfigVendor.mk
 
