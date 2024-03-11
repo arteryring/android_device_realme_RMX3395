@@ -6,6 +6,9 @@
 
 DEVICE_PATH := device/realme/RMX3395
 
+# APEX
+DEXPREOPT_GENERATE_APEX_IMAGE := true
+
 # A/B
 AB_OTA_UPDATER := true
 AB_OTA_PARTITIONS += \
