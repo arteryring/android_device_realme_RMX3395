@@ -257,6 +257,11 @@ PRODUCT_PACKAGES += \
     android.hardware.power@1.2.vendor \
     android.hardware.power-V2-ndk_platform.vendor
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/perf/power_app_cfg.xml:$(TARGET_COPY_OUT_VENDOR)/etc/power_app_cfg.xml \
+    $(LOCAL_PATH)/configs/perf/powercontable.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powercontable.xml \
+    $(LOCAL_PATH)/configs/perf/powerscntbl.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerscntbl.xml
+
 # Radio
 PRODUCT_PACKAGES += \
     android.hardware.radio.config@1.0.vendor \
@@ -298,6 +303,7 @@ PRODUCT_PACKAGES += \
     ueventd.rc \
     ueventd.wifi.rc
 
+# Fastboot
 PRODUCT_PACKAGES += \
     init.recovery.mt6877.rc
 
