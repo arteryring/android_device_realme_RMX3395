@@ -298,6 +298,9 @@ PRODUCT_PACKAGES += \
     ueventd.rc \
     ueventd.wifi.rc
 
+PRODUCT_PACKAGES += \
+    init.recovery.mt6877.rc
+
 # Secure Element
 PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.0.vendor \
