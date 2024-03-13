@@ -323,23 +323,16 @@ PRODUCT_PACKAGES += \
 # Rootdir
 PRODUCT_PACKAGES += \
     fstab.mt6877 \
-    fstab.mt6877_ramdisk \
     init.ago.rc \
     init.cgroup.rc \
     init.connectivity.common.rc \
     init.connectivity.rc \
-    init_connectivity.rc \
     init.modem.rc \
     init.mt6877.rc \
     init.mt6877.usb.rc \
     init.project.rc \
     init.sensor_2_0.rc \
-    ueventd.rc \
-    ueventd.wifi.rc \
-    init.sensor_1_0.rc \
-    init.target.rc \
-    ueventd.mtk.rc \
-    ueventd.oplus.rc
+    ueventd.wifi.rc
 
 # Fastboot
 PRODUCT_PACKAGES += \
