@@ -335,7 +335,7 @@ PRODUCT_PACKAGES += \
     init.project.rc \
     init.sensor_2_0.rc \
     ueventd.rc \
-    ueventd.wifi.rc
+    ueventd.wifi.rc \
     init.sensor_1_0.rc \
     init.target.rc \
     ueventd.mtk.rc \
