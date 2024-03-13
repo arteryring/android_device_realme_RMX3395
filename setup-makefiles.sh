@@ -8,7 +8,7 @@
 
 set -e
 
-DEVICE=RNX3395
+DEVICE=RMX3395
 VENDOR=realme
 
 # Load extract_utils and do some sanity checks
