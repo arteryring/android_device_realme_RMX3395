@@ -94,10 +94,6 @@ PRODUCT_PACKAGES += \
     libdrm.vendor \
     libdrm
 
-# DRM
-PRODUCT_PACKAGES += \
-    android.hardware.drm@1.4-service.clearkey
-
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0.vendor \
     android.hardware.drm@1.1.vendor \
@@ -305,10 +301,6 @@ PRODUCT_PACKAGES += \
     com.android.ims.rcsmanager \
     RcsService \
     PresencePolling
-
-# RenderScript
-PRODUCT_PACKAGES += \
-    android.hardware.renderscript@1.0-imp
 
 # Rootdir
 PRODUCT_PACKAGES += \
