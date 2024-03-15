@@ -14,9 +14,9 @@
 // limitations under the License.
 
 cc_binary {
-    name: "android.hardware.light-service.spaced",
-    init_rc: ["android.hardware.light-service.spaced.rc"],
-    vintf_fragments: ["android.hardware.light-service.spaced.xml"],
+    name: "android.hardware.light-service.mediatek",
+    init_rc: ["android.hardware.light-service.mediatek.rc"],
+    vintf_fragments: ["android.hardware.light-service.mediatek.xml"],
     relative_install_path: "hw",
     srcs: [
         "main.cpp",
