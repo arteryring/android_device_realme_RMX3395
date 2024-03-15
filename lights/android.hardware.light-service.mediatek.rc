@@ -1,4 +1,4 @@
-service vendor.light-default /vendor/bin/hw/android.hardware.light-service.spaced
+service vendor.light-default /vendor/bin/hw/android.hardware.light-service.mediatek
     class hal
     user system
     group system

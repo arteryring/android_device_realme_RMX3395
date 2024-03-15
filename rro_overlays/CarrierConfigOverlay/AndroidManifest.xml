@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.carrierconfig.spaced"
+    package="com.android.carrierconfig.mediatek"
     android:versionCode="1"
     android:versionName="1.0">
     <application android:hasCode="false" />

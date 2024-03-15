@@ -177,7 +177,7 @@ PRODUCT_PACKAGES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.light-service.spaced
+    android.hardware.light-service.mediatek
 
 # Media
 PRODUCT_PACKAGES += \

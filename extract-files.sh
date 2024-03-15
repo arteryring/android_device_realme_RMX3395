@@ -86,4 +86,3 @@ setup_vendor "${DEVICE}" "${VENDOR}" "${ANDROID_ROOT}" false "${CLEAN_VENDOR}"
 extract "${MY_DIR}/proprietary-files.txt" "${SRC}" "${KANG}" --section "${SECTION}"
 
 "${MY_DIR}/setup-makefiles.sh"
->>>>>>> 0f9d60e (spaced: Link older libutils for PQ HAL)

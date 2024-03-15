@@ -71,10 +71,6 @@ BOARD_MKBOOTIMG_ARGS += --dtb_offset $(BOARD_DTB_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOTIMG_HEADER_VERSION)
 BOARD_MKBOOTIMG_ARGS += --board ""
 
-# Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_spaced
-TARGET_RECOVERY_DEVICE_MODULES := libinit_spaced
-
 # Kernel
 BOARD_BOOTIMG_HEADER_VERSION := 3
 BOARD_KERNEL_CMDLINE := console=ttyMSM0,115200n8 androidboot.hardware=qcom androidboot.console=ttyMSM0 androidboot.memcg=1 lpm_levels.sleep_disabled=1 video=vfb:640x400,bpp=32,memsize=3072000 msm_rtb.filter=0x237 service_locator.enable=1 androidboot.usbcontroller=a600000.dwc3 swiotlb=0 loop.max_part=7 cgroup.memory=nokmem,nosocket pcie_ports=compat loop.max_part=7 iptable_raw.raw_before_defrag=1 ip6table_raw.raw_before_defrag=1 kpti=off iptable_raw.raw_before_defrag=1 buildvariant=user
@@ -132,9 +128,6 @@ TARGET_COPY_OUT_VENDOR := vendor
 TARGET_COPY_OUT_PRODUCT := product
 TARGET_COPY_OUT_SYSTEM_EXT := system_ext
 
-# Platform
-TARGET_BOARD_PLATFORM := mt6781
-
 # Recovery
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.mt6781
@@ -174,11 +167,6 @@ BOARD_AVB_VBMETA_VENDOR_KEY_PATH := external/avb/test/data/testkey_rsa2048.pem
 BOARD_AVB_VBMETA_VENDOR_ALGORITHM := SHA256_RSA2048
 BOARD_AVB_VBMETA_VENDOR_ROLLBACK_INDEX := 1
 BOARD_AVB_VBMETA_VENDOR_ROLLBACK_INDEX_LOCATION := 3
-
-# VINTF
-DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
-DEVICE_MATRIX_FILE += $(DEVICE_PATH)/compatibility_matrix.xml
-DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := $(DEVICE_PATH)/framework_compatibility_matrix.xml
 
 # Platform
 TARGET_BOARD_PLATFORM := mt6877
